@@ -1,0 +1,3 @@
+
+q(s, a) = q(s, a) + alpha * [reward + discount * max_a q(s+1, a) - q(s, a)]
+
